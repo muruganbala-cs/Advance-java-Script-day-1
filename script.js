@@ -18,7 +18,7 @@ setTimeout((a) => {
                   document.getElementById("container").innerHTML = "<b>2</b>";
                   setTimeout((a) => {
                     document.getElementById("container").innerHTML = "<b>1</b>";
-                    setTimeout((a) => {
+                    setTimeout(() => {
                       document.getElementById("container").innerHTML =
                         "<b>HAPPY INDIPENDANCE DAY</b>";
                     }, 1000);
